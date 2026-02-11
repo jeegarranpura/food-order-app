@@ -1,4 +1,6 @@
 const mongoose = require("mongoose");
+const { seed } = require("../seed/menuSeed");
+
 mongoose
   .connect(
     process.env.MONGO_URI ||
@@ -6,6 +8,7 @@ mongoose
   )
   .then((res) => {
     console.log("DB connected successfully");
+    // seed();
   })
   .catch((error) => {
     console.log("Errors : ", error);

@@ -1,0 +1,82 @@
+[
+  {
+    "items_name": "Paneer Tikka",
+    "description": "Grilled paneer cubes with spices",
+    "price": 260,
+    "image": "https://source.unsplash.com/featured/?paneer-tikka",
+    "preparationTime": 20,
+    "isAvailable": true
+  },
+  {
+    "items_name": "Hara Bhara Kebab",
+    "description": "Spinach and peas patties",
+    "price": 180,
+    "image": "https://source.unsplash.com/featured/?veg-kebab",
+    "preparationTime": 15,
+    "isAvailable": true
+  },
+  {
+    "items_name": "Veg Spring Roll",
+    "description": "Crispy rolls stuffed with vegetables",
+    "price": 170,
+    "image": "https://source.unsplash.com/featured/?spring-roll",
+    "preparationTime": 12,
+    "isAvailable": true
+  },
+  {
+    "items_name": "Chilli Mushroom",
+    "description": "Spicy sautéed mushrooms",
+    "price": 210,
+    "image": "https://source.unsplash.com/featured/?mushroom-dish",
+    "preparationTime": 15,
+    "isAvailable": true
+  },
+  {
+    "items_name": "Crispy Corn",
+    "description": "Fried sweet corn",
+    "price": 160,
+    "image": "https://source.unsplash.com/featured/?fried-corn",
+    "preparationTime": 10,
+    "isAvailable": true
+  },
+  {
+    "items_name": "Tomato Soup",
+    "description": "Creamy tomato soup",
+    "price": 120,
+    "image": "https://source.unsplash.com/featured/?tomato-soup",
+    "preparationTime": 8,
+    "isAvailable": true
+  },
+  {
+    "items_name": "Sweet Corn Soup",
+    "description": "Sweet corn vegetable soup",
+    "price": 130,
+    "image": "https://source.unsplash.com/featured/?corn-soup",
+    "preparationTime": 8,
+    "isAvailable": true
+  },
+  {
+    "items_name": "Paneer Butter Masala",
+    "description": "Paneer in creamy tomato gravy",
+    "price": 240,
+    "image": "https://source.unsplash.com/featured/?paneer-curry",
+    "preparationTime": 20,
+    "isAvailable": true
+  },
+  {
+    "items_name": "Veg Biryani",
+    "description": "Aromatic spiced rice",
+    "price": 220,
+    "image": "https://source.unsplash.com/featured/?veg-biryani",
+    "preparationTime": 25,
+    "isAvailable": true
+  },
+  {
+    "items_name": "Masala Dosa",
+    "description": "Crispy dosa with potato filling",
+    "price": 140,
+    "image": "https://source.unsplash.com/featured/?masala-dosa",
+    "preparationTime": 15,
+    "isAvailable": true
+  }
+]

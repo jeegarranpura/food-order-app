@@ -3,16 +3,12 @@ const { sendResponse } = require("../utils/common.utils");
 const { error_msg } = require("../messages/messages");
 const router = express.Router();
 
-async function getAllItems(req, res, next) {
-  try {
-    
-  } catch (error) {
-    sendResponse({
-        res, 
-        status: 500,
-        message: error_msg.internal_server_error
-    });
-  }
-}
+const menuController = require("../controllers/menu.controller");
+
+router.post("/", menuController.createMenu);
+router.get("/", menuController.getAllMenu);
+router.get("/:id", menuController.getMenuById);
+router.put("/:id", menuController.updateMenu);
+router.delete("/:id", menuController.deleteMenu);
 
 module.exports = router;
